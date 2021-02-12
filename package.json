@@ -4,7 +4,8 @@
   "description": "��#\u0000 \u0000y\u0000e\u0000l\u0000p\u0000c\u0000a\u0000m\u0000p\u0000\r\u0000 \u0000",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "Dhruv Ahuja",

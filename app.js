@@ -155,7 +155,7 @@ app.use((err, req, res, next) => {
     if(!err.message) err.message = "Oh No, Something went Wrong!!!";
     res.status(statusCode).render('error', {err})
 });
-
-app.listen("3000",function(){
-    console.log("Yelp Camp Server started");
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+    console.log(`Yelp Camp Server started at port ${port}`);
 })
