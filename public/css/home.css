@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url(/Background.jpg);
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 5rem rgba(0, 0, 0, 0.5);
+}
+
+.nav-link {
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
+    border-bottom: 0.25rem solid transparent;
+}
+
+.nav-link:hover {
+    border-bottom: 0.25rem solid rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.nav-link.active {
+    color:#fff;
+    border-bottom: 0.25rem solid rgba(255, 255, 255, 0.5);
+}
+
+.btn-secondary, .btn-secondary:hover{
+    color: #222;
+}
